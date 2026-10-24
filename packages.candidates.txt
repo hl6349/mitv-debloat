@@ -1,0 +1,79 @@
+# MiTV4-ANSM0 / Android 6.0.1 / 固件 22.2.8.3108
+# 本清单里的包名全部来自这台机器的真实包列表（不再靠猜）
+#
+# 使用：把要执行的行的行首 "# " 去掉，然后 ./mitv.sh disable-file
+# 或者直接用：./mitv.sh disable <包名>
+
+# ============================================================
+# 第 1 档：纯广告 / 统计 / 上报 / 推送  —— 功能零损失
+# ============================================================
+com.miui.systemAdSolution                    # 小米广告 SDK（核心广告组件）
+com.miui.tv.analytics                        # 观看行为分析
+com.xiaomi.statistic                         # 统计上报
+com.xiaomi.devicereport                      # 设备信息上报
+com.xiaomi.mitv.tvpush.tvpushservice         # 推送服务（广告/运营推送）
+com.mitv.cloudcontrol                        # 云端配置下发（推广位来源）
+com.xiaomi.mitv.debug                        # 调试工具
+com.xiaomi.mitv.handbook                     # 使用手册
+com.xiaomi.mitv.legal.webview                # 法律条款网页
+
+# ============================================================
+# 第 2 档：商城 / 游戏 / 支付 / 生活服务 —— 不影响看视频
+# ============================================================
+com.xiaomi.mitv.shop                         # 小米商城
+com.xiaomi.mibox.gamecenter                  # 游戏中心
+com.xiaomi.gamecenter.sdk.service.mibox      # 游戏中心 SDK
+com.mipay.wallet.tv                          # 小米钱包 TV 版
+com.xiaomi.mitv.pay                          # 支付
+com.xiaomi.mitv.payment                      # 支付
+com.xiaomi.mitv.tvmanager                     # 电视管家
+cleantools.mitv.com.tvcleantools             # 一键清理
+com.xiaomi.mitv.calendar                     # 日历
+com.xiaomi.tweather                          # 天气
+com.mitv.alarmcenter                         # 闹钟/定时
+com.mitv.shoplugin                           # 购物插件
+com.xiaomi.mitv.tvvideocall                  # 电视视频通话
+com.xiaomi.smarthome.tv                      # 米家（不用智能家居就禁）
+com.xiaomi.smarthome.tv.service              # 米家服务
+com.xiaomi.mimusic2                          # 小米音乐
+com.xiaomi.mitv.karaoke.service              # K 歌
+
+# ============================================================
+# 第 3 档：首页推荐流 —— 禁完首页会变"空"，这才是纯净的关键
+# ============================================================
+com.xm.webcontent                            # H5 推广页
+com.duokan.videodaily                        # 多看视频日报（推荐位）
+com.xiaomi.tv.gallery                        # 相册/壁纸推荐
+com.mitv.gallery                             # 相册
+com.mitv.screensaver                         # 屏保（禁掉=待机直接黑屏）
+
+# ============================================================
+# 第 4 档：谨慎 —— 会砍掉实际功能，按需取舍
+# ============================================================
+# com.xiaomi.mitv.appstore                   # 应用商店：禁了没法装应用（你有当贝可替代）
+# com.xiaomi.mitv.upgrade                    # 系统升级：禁了不再 OTA（好处是不被强更塞广告）
+# com.xiaomi.voicecontrol                    # 语音助手
+# com.xiaomi.mi_connect_service              # 小米互联
+# com.xiaomi.miplay                          # 米联投屏
+# com.mi.miplay.mitvupnpsink                 # 投屏接收端
+# com.xiaomi.upnp                            # UPnP
+# com.xiaomi.mitv.smartshare                 # 快捷投屏
+# com.duokan.airkan.tvbox                    # 多屏互动
+# com.xiaomi.mitv.remotecontroller.service   # 手机遥控电视
+# com.sohu.inputmethod.sogou.tv              # 搜狗输入法（禁了没法打字）
+
+# ============================================================
+# 绝 对 不 要 动（脚本已硬拦截）
+# ============================================================
+# com.mitv.tvhome                桌面启动器
+# com.android.systemui / com.xiaomi.mitv.systemui
+# com.xiaomi.mitv.settings       系统设置
+# com.android.packageinstaller   装应用
+# com.droidlogic*                硬件抽象
+# com.google.android.webview
+# com.android.providers.*        media/settings/downloads/tv
+# com.xiaomi.account*            账号体系
+# com.xiaomi.android.TV.audio    音频
+# com.xiaomi.mitv.media          媒体服务
+# com.xiaomi.tvqs                快捷开关
+# mitv.service                   核心服务

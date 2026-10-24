@@ -1,0 +1,12 @@
+package:com.dangbeimarket
+package:com.dianshijia.newlive
+package:com.douyu.xl.douyutv
+package:com.gitvdemo.video
+package:com.mitv.care
+package:com.mitv.codec.update
+package:com.mitv.shoplugin
+package:com.newtv.cboxtv
+package:com.xiaodianshi.tv.yst
+package:com.xiaomi.mitv.tvvideocall
+package:com.xm.webcontent
+package:tv.icntv.ott

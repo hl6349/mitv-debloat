@@ -1,0 +1,19 @@
+# 已卸载包（恢复出厂设置后由 /system 重新装回）
+# 格式: <设备IP:端口> <包名>
+192.168.1.23:5555 com.miui.systemAdSolution
+192.168.1.23:5555 com.miui.tv.analytics
+192.168.1.23:5555 com.mitv.cloudcontrol
+192.168.1.23:5555 com.xm.webcontent
+192.168.1.23:5555 com.duokan.videodaily
+192.168.1.23:5555 com.xiaomi.mitv.tvpush.tvpushservice
+192.168.1.23:5555 com.xiaomi.mitv.shop
+192.168.1.253:5555 com.miui.systemAdSolution
+192.168.1.253:5555 com.miui.tv.analytics
+192.168.1.253:5555 com.mitv.cloudcontrol
+192.168.1.253:5555 com.xm.webcontent
+192.168.1.253:5555 com.duokan.videodaily
+192.168.1.253:5555 com.xiaomi.mitv.tvpush.tvpushservice
+192.168.1.253:5555 com.xiaomi.mitv.shop
+192.168.1.253:5555 com.mitv.shoplugin
+192.168.1.253:5555 com.mitv.care
+192.168.1.253:5555 com.xiaomi.mitv.tvvideocall

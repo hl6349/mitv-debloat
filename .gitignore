@@ -1,0 +1,8 @@
+# 第三方 APK：体积大，且应从官方 release 下载
+apk/*.apk
+
+# 解包临时目录
+apk/x/
+
+# macOS
+.DS_Store
